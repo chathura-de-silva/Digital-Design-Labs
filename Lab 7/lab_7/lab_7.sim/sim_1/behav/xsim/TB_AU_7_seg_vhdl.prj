@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab_7.srcs/sources_1/imports/Computer organization and Digital Design/Lab 6/lab6/lab6.srcs/sources_1/new/AU.vhd" \
+"../../../../lab_7.srcs/sources_1/new/AU_7_seg.vhd" \
+"../../../../lab_7.srcs/sources_1/imports/Computer organization and Digital Design/Lab 3/Lab_3 RCA/Lab_3.srcs/sources_1/new/FA.vhd" \
+"../../../../lab_7.srcs/sources_1/imports/Computer organization and Digital Design/Lab 3/Lab_3 RCA/Lab_3.srcs/sources_1/new/HA.vhd" \
+"../../../../lab_7.srcs/sources_1/new/LUT_16_7.vhd" \
+"../../../../lab_7.srcs/sources_1/imports/Computer organization and Digital Design/Lab 3/Lab_3 RCA/Lab_3.srcs/sources_1/new/RCA_4.vhd" \
+"../../../../lab_7.srcs/sources_1/imports/Computer organization and Digital Design/Lab 6/lab6/lab6.srcs/sources_1/new/Reg.vhd" \
+"../../../../lab_7.srcs/sources_1/imports/new/Slow_Clk.vhd" \
+"../../../../lab_7.srcs/sim_1/new/TB_AU_7_seg.vhd" \
+
+# Do not sort compile order
+nosort

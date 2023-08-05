@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Jun  4 17:41:53 2023
+# Process ID: 20800
+# Current directory: D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 5/lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20140 D:\UOM\2nd Semester\Computer organization and Digital Design\Lab 5\lab5\lab5.xpr
+# Log file: D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 5/lab5/vivado.log
+# Journal file: D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 5/lab5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 5/lab5/lab5.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+launch_simulation
+source Counter_sim.tcl
+close_sim

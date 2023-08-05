@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 3/Lab_3 Half adder only/Lab_3.srcs/sources_1/new/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HA
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 3/Lab_3 Half adder only/Lab_3.srcs/sim_1/new/TB_HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_HA

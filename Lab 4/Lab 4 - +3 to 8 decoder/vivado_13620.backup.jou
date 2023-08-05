@@ -1,0 +1,80 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Mar 22 04:19:15 2023
+# Process ID: 13620
+# Current directory: D:/UOM/2nd Semester/Computer organization and Digital Design/Lab_4/current
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12452 D:\UOM\2nd Semester\Computer organization and Digital Design\Lab_4\current\Lab_4.xpr
+# Log file: D:/UOM/2nd Semester/Computer organization and Digital Design/Lab_4/current/vivado.log
+# Journal file: D:/UOM/2nd Semester/Computer organization and Digital Design/Lab_4/current\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/UOM/2nd Semester/Computer organization and Digital Design/Lab_4/current/Lab_4.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source TB_Decoder_3_to_8.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+close_sim
+open_run impl_1
+launch_simulation
+source TB_Decoder_3_to_8.tcl
+set_property is_enabled false [get_files  {{D:/UOM/2nd Semester/Computer organization and Digital Design/Lab_4/current/Lab_4.srcs/sources_1/new/Decoder_3_to_8.vhd}}]
+set_property is_enabled true [get_files  {{D:/UOM/2nd Semester/Computer organization and Digital Design/Lab_4/current/Lab_4.srcs/sources_1/new/Decoder_3_to_8.vhd}}]
+set_property is_enabled false [get_files  {{D:/UOM/2nd Semester/Computer organization and Digital Design/Lab_4/current/Lab_4.srcs/sources_1/new/Decoder_3_to_8.vhd}}]
+set_property is_enabled false [get_files  {{D:/UOM/2nd Semester/Computer organization and Digital Design/Lab_4/current/Lab_4.srcs/sim_1/new/TB_Decoder_3_to_8.vhd}}]
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_Decoder_2_to_4 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source TB_Decoder_2_to_4.tcl
+close_sim
+close_sim
+set_property is_enabled true [get_files  {{D:/UOM/2nd Semester/Computer organization and Digital Design/Lab_4/current/Lab_4.srcs/sources_1/new/Decoder_3_to_8.vhd}}]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  {{D:/UOM/2nd Semester/Computer organization and Digital Design/Lab_4/current/Lab_4.srcs/sources_1/new/Decoder_3_to_8.vhd}}]
+set_property is_enabled true [get_files  {{D:/UOM/2nd Semester/Computer organization and Digital Design/Lab_4/current/Lab_4.srcs/sources_1/new/Decoder_3_to_8.vhd}}]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property is_enabled true [get_files  {{D:/UOM/2nd Semester/Computer organization and Digital Design/Lab_4/current/Lab_4.srcs/sim_1/new/TB_Decoder_3_to_8.vhd}}]
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_Decoder_3_to_8 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+close_design
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+set_property is_enabled false [get_files  {{D:/UOM/2nd Semester/Computer organization and Digital Design/Lab_4/current/Lab_4.srcs/sim_1/new/TB_Decoder_3_to_8.vhd}}]
+update_compile_order -fileset sim_1
+set_property is_enabled false [get_files  {{D:/UOM/2nd Semester/Computer organization and Digital Design/Lab_4/current/Lab_4.srcs/sources_1/new/Decoder_3_to_8.vhd}}]
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+refresh_design
+set_property is_enabled true [get_files  {{D:/UOM/2nd Semester/Computer organization and Digital Design/Lab_4/current/Lab_4.srcs/sim_1/new/TB_Decoder_3_to_8.vhd}}]
+set_property is_enabled true [get_files  {{D:/UOM/2nd Semester/Computer organization and Digital Design/Lab_4/current/Lab_4.srcs/sources_1/new/Decoder_3_to_8.vhd}}]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_Decoder_3_to_8 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1

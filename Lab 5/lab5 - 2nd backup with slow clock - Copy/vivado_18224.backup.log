@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sat Apr  8 23:33:33 2023
+# Process ID: 18224
+# Current directory: D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 5/lab5 - 2nd backup with slow clock - Copy
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14316 D:\UOM\2nd Semester\Computer organization and Digital Design\Lab 5\lab5 - 2nd backup with slow clock - Copy\lab5.xpr
+# Log file: D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 5/lab5 - 2nd backup with slow clock - Copy/vivado.log
+# Journal file: D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 5/lab5 - 2nd backup with slow clock - Copy\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 5/lab5 - 2nd backup with slow clock - Copy/lab5.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 5/lab5 - 2nd backup with slow clock - Copy'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx_Vivado/Vivado/2018.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 5/lab5 - 2nd backup with slow clock - Copy/lab5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Counter_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 5/lab5 - 2nd backup with slow clock - Copy/lab5.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Counter_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 5/lab5 - 2nd backup with slow clock - Copy/lab5.srcs/sim_1/new/Counter_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Counter_sim
+ERROR: [VRFC 10-486] character '2' is not in type std_logic [D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 5/lab5 - 2nd backup with slow clock - Copy/lab5.srcs/sim_1/new/Counter_sim.vhd:63]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 5/lab5 - 2nd backup with slow clock - Copy/lab5.srcs/sim_1/new/Counter_sim.vhd:37]
+INFO: [VRFC 10-240] VHDL file D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 5/lab5 - 2nd backup with slow clock - Copy/lab5.srcs/sim_1/new/Counter_sim.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 5/lab5 - 2nd backup with slow clock - Copy/lab5.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 5/lab5 - 2nd backup with slow clock - Copy/lab5.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Apr  8 23:50:16 2023...

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Jun  4 13:25:19 2023
+# Process ID: 18852
+# Current directory: D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 5/lab5 - 2nd backup with slow clock - Copy
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17436 D:\UOM\2nd Semester\Computer organization and Digital Design\Lab 5\lab5 - 2nd backup with slow clock - Copy\lab5.xpr
+# Log file: D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 5/lab5 - 2nd backup with slow clock - Copy/vivado.log
+# Journal file: D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 5/lab5 - 2nd backup with slow clock - Copy\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/UOM/2nd Semester/Computer organization and Digital Design/Lab 5/lab5 - 2nd backup with slow clock - Copy/lab5.xpr}
+update_compile_order -fileset sources_1

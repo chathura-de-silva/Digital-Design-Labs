@@ -6,10 +6,10 @@
 
 ### First 7 Labs are Vivado projects. 
 - All are designed for the Basys 3 FPGA.
-- Empty directories was kept as it is due to possible conflics with the file paths inside the project files.
+- Empty directories were kept as it is due to possible conflics with the file paths inside the project files.
 
 
 ### Final lab is related to Assembly language.
 
 
-### [Final project, The Design of a Nanoprocessor can be found [here.](https://github.com/Sharada001/Nanoprocessor_Design)
+### [Final geoup project, The Design of a Nanoprocessor can be found [here.](https://github.com/Sharada001/Nanoprocessor_Design)

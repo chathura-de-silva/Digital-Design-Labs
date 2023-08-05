@@ -3,7 +3,6 @@
 <img src="https://github.com/chathura7357/Digital-Design-Labs/blob/main/basys_board_image.png">
 </p>
 
-<br></br>
 
 ### First 7 Labs are Vivado projects. 
 - All are designed for the Basys 3 FPGA.

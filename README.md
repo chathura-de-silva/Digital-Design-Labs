@@ -1,6 +1,6 @@
 # Digital-Design-Labs
 <p align="center">
-<img src="https://m.media-amazon.com/images/I/71mTcGhDgHL._AC_SL1500_.jpg">
+<img src="https://github.com/chathura7357/Digital-Design-Labs/blob/main/basys_board_image.png">
 </p>
 Digital Design Labs covered under "Computer organization and digital design" module in semester 2, UOM CSE
 

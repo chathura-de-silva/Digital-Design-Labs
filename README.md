@@ -13,4 +13,4 @@
 ### Final lab is related to Assembly language.
 
 
-### [Final geoup project, The Design of a Nanoprocessor can be found [here.](https://github.com/Sharada001/Nanoprocessor_Design)
+### [Final group project, The Design of a Nanoprocessor can be found [here.](https://github.com/Sharada001/Nanoprocessor_Design)

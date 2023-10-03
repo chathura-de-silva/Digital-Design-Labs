@@ -4,8 +4,7 @@
 </p>
 
 
-### First 7 Labs are Vivado projects. 
-- VHDL being used.
+### First 7 Labs are Vivado projects written in VHDL. 
 - All are designed for the Basys 3 FPGA.
 - Empty directories were kept as it is due to possible conflics with the file paths inside the project files.
 
